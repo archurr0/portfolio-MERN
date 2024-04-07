@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css';
 import { useEffect, useRef, useState } from "react";
-import axios from 'axios';
 
 export const Contact = () => {
   const nameRef = useRef();
@@ -18,7 +17,7 @@ export const Contact = () => {
       return null;
     }
     const data = {name, email, subject, text};
-    fetch("http://localhost:5000/feedback", {
+    fetch("https://portfolio-mern-k4t1.onrender.com/feedback", {
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(data),
@@ -34,7 +33,7 @@ export const Contact = () => {
       console.log(error?.message);
       setResult(`Error: ${error?.message}`);
     });
-    fetch('http://localhost:5000/feedback/contacts', {
+    fetch('https://portfolio-mern-k4t1.onrender.com/feedback/contacts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
