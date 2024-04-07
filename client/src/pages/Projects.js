@@ -34,6 +34,13 @@ export const Projects = () => {
         <p>I found professional tennis databases online from the ATP Tour and used it to find patterns</p>
         <p>in how players' mental psyches are affected at certain scorelines in the game.</p>
         <a href="https://docs.google.com/presentation/d/1ERu85TDcS07fFWmh1Wr7NCIlLK33t8u5B8KSHORTcp0/edit#slide=id.g245bd6a573f_3_0">Data Analysis Documentation</a>
+        <h1>other web development projects: </h1>
+        <p>1. Concentration Game (Memory Card Flip Game)</p>
+        <a href="http://concentrationgame.great-site.net/?i=1">Concentration Game Link</a>
+        <p>2. Bootstrap Painting</p>
+        <a href="http://bootstrappainting.great-site.net/?i=1">Bootstrap Painting Link</a>
+        <p>3. Weather App</p>
+        <a href="https://weather-app-6jcy.onrender.com">Weather App Link</a>
     </div>
   )
 }
